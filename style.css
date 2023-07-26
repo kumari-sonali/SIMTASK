@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width:80vw
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+.navbar{ 
+    display: flex;
+    height: 67px;
+}
+.section1{
+    max-height: 100vh;
+}
+.topleft{
+    width:50%;
+    height: 50vh;
+}
+.topright{
+    width: 50%;
+    height: 50vh;
+}
+.section2{
+    padding-left: 63px;
+    padding-right: 63px;
+}
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+
+} .section2 h2{
+    padding: 12px 0;
+}
+.box{
+    padding:8px 0px ;
+    margin: 12px 24px;
+    min-width: 20vw;
+    border: 2px solid rgb(82, 31, 31);
+    text-align: center;
+    border-radius:8px ;
+}
+.box ul li{
+    margin: 6px 1px;
+}
+.box ul{
+    list-style-type: none;
+}
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+footer{
+    padding: 23px;
+
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{ 
+    width: 23vw; 
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+} 
+
+.section3 table td{   
+    border-bottom: 2px solid black; 
+} 
+
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 73px;
+}
